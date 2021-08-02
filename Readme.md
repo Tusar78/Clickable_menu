@@ -2,6 +2,7 @@
 Learn step by step how to create responsive navigation using HTML, CSS, and a little JavaScript.
 
 > Resize the browser window to see how the responsive navigation menu work. [Link below ⬇]
+> 
 > [Live Demo](https://clickable-menu.netlify.app/)
 
  - [x] Step one [Add HTML]
