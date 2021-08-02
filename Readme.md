@@ -66,30 +66,30 @@ Learn step by step how to create responsive navigation using HTML, CSS, and a li
  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the nav (.icon) */
  @media screen and (max-width: 600px) {
 	.nav a:not(:first-child) {
-			display: none;
+		display: none;
 	}
 	.nav a.icon {
-			float: right;
-			display: block;
+		float: right;
+		display: block;
 	}
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the nav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
 	.nav.responsive {
-			position: relative;
+		position: relative;
 	}
 
 	.nav.responsive .icon {
-			position: absolute;
-			right: 0;
-			top: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
 	}
 
 	.nav.responsive a {
-			float: none;
-			display: block;
-			text-align: left;
+		float: none;
+		display: block;
+		text-align: left;
 	}
 }
  ```
